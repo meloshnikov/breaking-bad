@@ -1,0 +1,10 @@
+.card {
+  @apply border py-4 px-6 mb-2 cursor-pointer hover:shadow-lg hover:transition-all rounded-md
+}
+
+
+@media screen and (min-width: 680px) {
+  .list {
+    --cols: 3;
+  }
+}
